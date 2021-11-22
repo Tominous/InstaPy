@@ -50,7 +50,7 @@ setup(
         "Source": (project_homepage + "/tree/master/instapy"),
     },
     packages=["instapy"],
-    # include_package_data=True,  # <- packs every data file in the package
+     include_package_data=True,  # <- packs every data file in the package
     package_data={  # we need only the files below:
         "instapy": [
             "icons/Windows/*.ico",
