@@ -13,7 +13,7 @@ module.exports = {
     googleAdsense: { dataAdClient: 'ca-pub-4875789012193531' },
     gtag: {
       trackingID: 'G-F16VNTTQ7S',
-      anonymizeIP: false,
+      anonymizeIP: true,
     },
     sidebarCollapsible: false,
     navbar: {
@@ -23,13 +23,13 @@ module.exports = {
         src: 'img/instapy_logo.png',
       },
       items: [
-        //{
-          //to: 'docs/',
-          //activeBasePath: 'docs',
-          //label: 'Docs',
-          //position: 'left',
-        //},
-        //{to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/timgrossmann/InstaPy',
           label: 'GitHub',
@@ -57,14 +57,14 @@ module.exports = {
           title: 'Links',
           items: [
             // TODO add affiliate links here
-            //{
-              //label: 'Style Guide',
-              //to: 'docs/',
-            //},
-            //{
-              //label: 'Second Doc',
-              //to: 'docs/doc2/',
-            //},
+            {
+              label: 'Style Guide',
+              to: 'docs/',
+            },
+            {
+              label: 'Second Doc',
+              to: 'docs/doc2/',
+            },
           ],
         },
         {
